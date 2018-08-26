@@ -83,6 +83,21 @@ section#general{
   height: auto;
   display: block;
 }
+section#publicidad{
+  width: 40%;
+}
+section#general2{
+  border-radius: 1em;
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 986px;
+  height: auto;
+  display: block;
+}
 section#menu{
   margin-top: 50px;
   border-radius: 1em;
@@ -129,6 +144,18 @@ section#bloqueSeg{
 }
 section#bloqueTec{
   margin-top: 3500px;
+  padding: 4em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 1140px;
+  height: 400px;
+  background: #EFF1F1;
+}
+section#bloqueCut{
+  margin-top: 3670px;
   padding: 4em;
   position: absolute;
   top: 50%;
@@ -194,4 +221,7 @@ div#cuadrado {
 }
 .margenGenB{
   margin-top: 1880px;
+}
+.margenGenC{
+  margin-top:1930px;
 }
