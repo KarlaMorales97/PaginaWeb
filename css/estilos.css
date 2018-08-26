@@ -66,7 +66,6 @@ hr {
   text-align: center;
 }
 section#general{
-  margin-top: 1350px;
   border-radius: 1em;
   padding: 1em;
   position: absolute;
@@ -122,6 +121,18 @@ section#bloqueSeg{
   height: 100px;
   background: #EFF1F1;
 }
+section#bloqueTec{
+  margin-top: 3500px;
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 1140px;
+  height: 400px;
+  background: #EFF1F1;
+}
 section#columna{
   margin-top: 2960px;
   border-radius: 1em;
@@ -145,6 +156,17 @@ div#derecho{
   display: block;
   float: right;
 }
+div#primero{
+  float: left;
+  display: block;
+}
+div#segundo{
+  width: auto;
+}
+div#tercero{
+  display: block;
+  float: right;
+}
 div#cuadrado {
   margin-top: 140px;
   margin-left: 42%;
@@ -152,4 +174,10 @@ div#cuadrado {
   border: black 0.5px solid;
   text-align: center;
   padding: 2px;
+}
+.margenGenA{
+  margin-top: 1330px;
+}
+.margenGenB{
+  margin-top: 1880px;
 }
