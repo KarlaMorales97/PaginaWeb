@@ -12,7 +12,7 @@ p{
   color: #808080;
 }
 p#pseg{
-  text-align: right;
+  text-align: center;
 }
 h1{
   font-family: Jura;
@@ -32,6 +32,7 @@ h2#secundario{
   font-family: Arapey;
   color: #555555;
 }
+
 h3{
   font-family: Quicksand;
   font-size: 18px;
@@ -53,8 +54,17 @@ h4{
   text-decoration: none;
   float: right;
 }
+hr {
+  margin-left: 38%;
+  margin-right: 38%;
+  background-color: black;
+}
 
-
+.negro{
+  margin-top: 50px;
+  color: #000000;
+  text-align: center;
+}
 section#general{
   margin-top: 1350px;
   border-radius: 1em;
@@ -88,7 +98,43 @@ section#banner{
   margin: auto;
   margin-top: 70px;
 }
-
+section#bloque{
+  margin-top: 2470px;
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 1140px;
+  height: 260px;
+  background: #EFF1F1;
+}
+section#bloqueSeg{
+  margin-top: 3560px;
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 1180px;
+  height: 100px;
+  background: #EFF1F1;
+}
+section#columna{
+  margin-top: 2960px;
+  border-radius: 1em;
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 986px;
+  height: auto;
+  display: block;
+}
 div#izquierdo{
   margin-top: 160px;
   float: left;
@@ -98,4 +144,12 @@ div#derecho{
   margin-top: 160px;
   display: block;
   float: right;
+}
+div#cuadrado {
+  margin-top: 140px;
+  margin-left: 42%;
+  margin-right: 42%;
+  border: black 0.5px solid;
+  text-align: center;
+  padding: 2px;
 }
