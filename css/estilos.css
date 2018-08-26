@@ -3,12 +3,16 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 p{
   margin-top: 20px;
   font-size: 18px;
   font-family: Arapey;
   color: #808080;
+}
+p#pseg{
+  text-align: right;
 }
 h1{
   font-family: Jura;
@@ -22,7 +26,20 @@ h2{
   font-family: Arapey;
   color: #555555;
 }
+h2#secundario{
+  font-size: 34px;
+  font-weight: 300;
+  font-family: Arapey;
+  color: #555555;
+}
 h3{
+  font-family: Quicksand;
+  font-size: 18px;
+  font-weight: 100;
+  color: #AFAFAF;
+}
+h3#comment{
+  margin-top: 50px;
   font-family: Quicksand;
   font-size: 18px;
   font-weight: 100;
@@ -39,7 +56,7 @@ h4{
 
 
 section#general{
-  margin-top: 600px;
+  margin-top: 1350px;
   border-radius: 1em;
   padding: 1em;
   position: absolute;
@@ -49,6 +66,7 @@ section#general{
   transform: translate(-50%, -50%);
   width: 986px;
   height: auto;
+  display: block;
 }
 section#menu{
   margin-top: 50px;
@@ -69,4 +87,15 @@ section#menu img{
 section#banner{
   margin: auto;
   margin-top: 70px;
+}
+
+div#izquierdo{
+  margin-top: 160px;
+  float: left;
+  display: block;
+}
+div#derecho{
+  margin-top: 160px;
+  display: block;
+  float: right;
 }
