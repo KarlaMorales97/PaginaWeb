@@ -32,7 +32,13 @@ h2#secundario{
   font-family: Arapey;
   color: #555555;
 }
-
+h2#h2{
+  font-size: 24px;
+  font-weight: 300;
+  font-family: Arapey;
+  color: #000000;
+  margin-top: 25px;
+}
 h3{
   font-family: Quicksand;
   font-size: 18px;
@@ -153,6 +159,14 @@ div#izquierdo{
 }
 div#derecho{
   margin-top: 160px;
+  display: block;
+  float: right;
+}
+div#izquierdo2{
+  float: left;
+  display: block;
+}
+div#derecho2{
   display: block;
   float: right;
 }
